@@ -25,7 +25,7 @@ for (var i = 0; i < events.length; i++) {
 
   document.getElementsById('content').appendChild(container);
 }
-  } // Final line of the if statement
+  }
 function getNodeValue(obj, tag) {
   return obj.getElementsByTagName(tag)[0].firstChild.nodeValue;
 }
