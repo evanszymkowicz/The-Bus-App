@@ -21,7 +21,7 @@ $(function() {
     });
   }
 
-  loadTimetable(); //Calls the JSON function
+  loadTimetable();
 
   $('#content').on('click', '#event a', function(e) {
 

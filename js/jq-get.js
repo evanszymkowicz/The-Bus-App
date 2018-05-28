@@ -6,7 +6,7 @@ $('#selector').append(vote);
 //Ratings sidebar
 $('#selector a').on('click', function(e) {
   e.preventDefault();
-  var queryString = 'vote=' +$(e.target).attr('id');
+  var queryString = 'vote=' + $(e.target).attr('id');
   $.get('/php/votes.php', queryString, function(data) {
     $('#selector').html(data);
   });

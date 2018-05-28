@@ -25,4 +25,4 @@ function loadRates() {
   });
 }
 
-loadRates();                                             // Call loadRates()
+loadRates();                                          

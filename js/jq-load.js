@@ -7,3 +7,5 @@ $('nav a').on('click', function(e) {
 
   $('#container').remove();
   $('#content').load(url + ' #container').hide().fadeIn('slow');
+
+});
